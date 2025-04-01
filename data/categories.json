@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Frutas"
+  },
+  {
+    "id": 2,
+    "name": "Verduras"
+  },
+  {
+    "id": 3,
+    "name": "Carnes"
+  },
+  {
+    "id": 4,
+    "name": "Lácteos"
+  },
+  {
+    "id": 5,
+    "name": "Cereales"
+  },
+  {
+    "id": 6,
+    "name": "Legumbres"
+  },
+  {
+    "id": 7,
+    "name": "Frutos secos"
+  },
+  {
+    "id": 8,
+    "name": "Sin categoría"
+  }
+]
