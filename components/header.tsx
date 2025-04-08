@@ -11,15 +11,15 @@ export function Header() {
       <div className="container flex items-center justify-between h-16 px-4 mx-auto">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold">Calculadora Nutricional</span>
+            <span className="text-xl font-bold">Fitness-app</span>
           </Link>
         </div>
 
         <div className="flex items-center gap-2">
-          <Link href="/get">
+          <Link href="/foods">
             <Button variant="ghost" className="flex items-center gap-2">
               <Calculator className="w-5 h-5" />
-              <span className="hidden sm:inline">Calculadora GET</span>
+              <span className="hidden sm:inline">Dietas</span>
             </Button>
           </Link>
           <Link href="/admin">

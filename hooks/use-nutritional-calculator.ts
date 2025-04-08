@@ -5,14 +5,14 @@ import type { FoodItem } from "@/types/food"
 import { v4 as uuidv4 } from "uuid"
 import type { Meal } from "@/types/meal"
 
-type SelectedFood = {
+export type SelectedFood = {
   id: string
   food: FoodItem
   quantity: number
   customPrice?: number // Precio personalizado
 }
 
-type NutritionalTotals = {
+export type NutritionalTotals = {
   calories: number
   protein: number
   carbs: number
